@@ -1,3 +1,9 @@
+<h1 align="center">#!/bin/bash</h1>
+
+<p align="center">
+	<img src="https://image.flaticon.com/icons/svg/25/25719.svg?sanitize=true" alt="Imagem do Tux, mascote do Linux" title="Mascote do Linux" width="220" />
+</p>
+
 # Bash Scripts
 
 Este repositório contém alguns dos scripts que venho implementando durante meus estudos sobre **Bash Scripts**.
