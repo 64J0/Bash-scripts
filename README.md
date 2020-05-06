@@ -8,10 +8,23 @@ Neste momento estou seguindo o caminho do **Linux Shell**.
 
 ---
 
-Para executar algums destes scripts basta abrir uma nova janela do terminal (Ctrl + Shift + T), navegar até a pasta onde estão estes arquivos e executar:
+Para criar um novo arquivo usando o terminal, editar seu conteúdo e mover posteriormente para outra pasta:
 
 ```bash
-	bash <./nome_do_arquivo>
+	# Cria o novo arquivo com uma determinada extensão
+	echo > <nome_do_arquivo>.<extensão_do_arquivo>
+	
+	# Abre o editor nano para editar o arquivo
+	nano <nome_do_arquivo>.<extensão_do_arquivo>
+	
+	# Move para outro lugar o arquivo
+	mv <nome_do_arquivo>.<extensão_do_arquivo> $PWD/<caminho>
+```
+
+Para executar estes scripts basta abrir uma nova janela do terminal (Ctrl + Shift + T), navegar até a pasta onde estão estes arquivos e executar:
+
+```bash
+	bash ./<nome_do_arquivo>
 ```
 
 ---
