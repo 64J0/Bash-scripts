@@ -27,10 +27,10 @@ fi
 # -a === &&
 # -o === ||
 # Para acessar mais flags => man test
-if [ "$L1" = "$L2" -a "$L1"  = "$L3" ]
+if [ "$L1" = "$L2" -a "$L1" = "$L3" ]
 then
 	echo "EQUILATERAL"
-elif [ "$L1" != "$L2" -a "$L1" != "$L3" ]
+elif [ "$L1" != "$L2" -a "$L1" != "$L3" -a "$L2" != "$L3" ]
 then
 	echo "SCALENE"
 else
